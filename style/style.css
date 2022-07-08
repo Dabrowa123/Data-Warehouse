@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 1120px;
+  width: 96%;
   margin: auto;
 }
 
@@ -31,6 +31,7 @@ p {
 .btn {
   padding: 21px 29px;
   border: 0;
+  background: none;
   border-radius: 50px;
   font-size: 16px;
   font-weight: 600;
@@ -53,7 +54,7 @@ p {
 }
 
 nav {
-  margin-top: 50px;
+  margin-top: 3%;
 }
 
 nav .container {
@@ -63,15 +64,33 @@ nav .container {
 }
 
 nav .container .btn {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+}
+
+nav .container .logo {
+  margin-left: 5px;
+}
+
+nav .container .btn img {
+  display: none;
+}
+
+nav .container .btn--mobile-menu {
   position: absolute;
-  right: 0;
+  padding: 4px;
+  top: 0;
+}
+
+nav .container .btn--mobile-menu img {
+  display: initial;
+  width: 35px;
+  height: auto;
 }
 
 .nav__links {
-  display: flex;
-  justify-content: space-between;
-  width: 28.75%;
-  margin-left: 10.8%;
+  display: none;
 }
 
 .nav__links a {

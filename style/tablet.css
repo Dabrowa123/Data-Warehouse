@@ -1,0 +1,28 @@
+.container {
+  width: 720px;
+}
+
+nav .container .btn {
+  position: absolute;
+  right: 0;
+  bottom: unset;
+}
+
+nav .container .btn img {
+  display: initial;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  width: 42%;
+  margin-left: 10.8%;
+}
+
+nav {
+  margin-top: 50px;
+}
+
+.btn--mobile-menu {
+  display: none;
+}
