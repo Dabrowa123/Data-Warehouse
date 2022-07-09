@@ -5,3 +5,9 @@
 .nav__links {
   width: 28.75%;
 }
+
+.landing-page {
+  padding: 130px 0 100px 0;
+  background-size: 60%;
+  background-position: 88% 83%;
+}

@@ -26,3 +26,25 @@ nav {
 .btn--mobile-menu {
   display: none;
 }
+
+.landing-page {
+  padding: 130px 0 100px 0;
+  background-size: 65%;
+  background-position: 88% 83%;
+}
+
+.landing-page h1 {
+  font-size: 80px;
+  width: 53%;
+  color: var(--dark-blue);
+}
+
+.landing-page p {
+  width: 33%;
+  line-height: 160%;
+}
+
+.landing-page p,
+.landing-page h1 {
+  margin-bottom: 50px;
+}
