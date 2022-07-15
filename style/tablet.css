@@ -2,6 +2,11 @@
   width: 720px;
 }
 
+.btn {
+  padding: 21px 29px;
+  font-size: 16px;
+}
+
 nav .container .btn {
   position: absolute;
   right: 0;

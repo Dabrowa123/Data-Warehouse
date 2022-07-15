@@ -29,11 +29,11 @@ p {
 }
 
 .btn {
-  padding: 21px 29px;
+  padding: 17px 27px;
   border: 0;
   background: none;
   border-radius: 50px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
 }
 
@@ -70,6 +70,7 @@ nav .container .btn {
   position: fixed;
   right: 15px;
   bottom: 15px;
+  z-index: 2;
 }
 
 nav .container .logo {
@@ -113,7 +114,7 @@ nav .container .btn--mobile-menu img {
   background-image: url("../img/bg/bg-lp.svg");
   background-size: 90%;
   background-repeat: no-repeat;
-  background-position: 30% 72%;
+  background-position: 30% 74%;
 }
 
 .landing-page h1 {
