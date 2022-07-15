@@ -108,12 +108,12 @@ nav .container .btn--mobile-menu img {
 
 .landing-page {
   position: relative;
-  min-height: 92vh;
-  padding: 40px 4px 260px;
+  min-height: 120vh;
+  padding: 40px 6px 260px;
   background-image: url("../img/bg/bg-lp.svg");
-  background-size: 95%;
+  background-size: 90%;
   background-repeat: no-repeat;
-  background-position: 30% 75%;
+  background-position: 30% 72%;
 }
 
 .landing-page h1 {
