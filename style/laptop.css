@@ -2,12 +2,26 @@
   width: 960px;
 }
 
+.container p {
+  padding-top: 5px;
+}
+
 .nav__links {
   width: 28.75%;
 }
 
 .landing-page {
-  padding: 130px 0 100px 0;
-  background-size: 65%;
-  background-position: 93% 90%;
+  padding: 50px 0 100px 0;
+  background-size: 60%;
+  background-position: 93% 78%;
+  margin-bottom: 30px;
+}
+
+.landing-page h1 {
+  width: 53%;
+}
+
+.landing-page p,
+.landing-page h1 {
+  margin-bottom: 50px;
 }
