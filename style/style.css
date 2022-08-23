@@ -132,7 +132,7 @@ nav .container .btn--mobile-menu img {
 }
 
 .about {
-  padding: 50px 20px 330px 20px;
+  padding: 50px 22px 330px 22px;
   background: rgba(240, 99, 184, 0.15) url("../img/bg/bg-about.svg");
   background-size: 85%;
   background-repeat: no-repeat;
@@ -142,7 +142,6 @@ nav .container .btn--mobile-menu img {
 
 .about h1 {
   margin-bottom: 30px;
-  /* line-height: 130%; */
 }
 
 .about p {
