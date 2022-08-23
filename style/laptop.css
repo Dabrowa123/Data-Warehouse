@@ -28,22 +28,70 @@
 
 .about {
   padding: 100px 92px 100px 53%;
-  background: rgba(240, 99, 184, 0.15), url("../img/bg/bg-about.svg");
   background-size: 47%;
-  background-repeat: no-repeat;
   background-position: 4% 48%;
-  border-radius: 50px;
 }
 
 .about h1 {
   font-size: 50px;
   margin-bottom: 50px;
-  line-height: 130%;
 }
 
 .about p {
   padding-left: 0;
   font-size: 18px;
-  color: var(--dark-gray);
+}
+
+.features {
+  margin-top: 150px;
+}
+
+.features__header {
+  margin: 0 auto 100px auto;
+  width: 52%;
+  text-align: center;
+}
+
+.features h2 {
+  color: var(--dark-blue);
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+
+.features__list p {
+  font-size: 16px;
   line-height: 160%;
+}
+
+.features__list {
+  display: grid;
+  grid-template-columns: 47% 47%;
+  grid-gap: 6%;
+}
+.features__item {
+  position: relative;
+  height: 360px;
+  padding: 50px 50px 50px 50%;
+  background-repeat: no-repeat;
+  background-position: 100% 50%, 0% 50%;
+}
+
+.features__item--1 {
+  background-image: url("../img/bg/bg-f-1.svg"), url("../img/bg/bg-f-1b.svg");
+}
+
+.features__item--2 {
+  background-image: url("../img/bg/bg-f-2.svg"), url("../img/bg/bg-f-2b.svg");
+}
+
+.features__item--3 {
+  background-image: url("../img/bg/bg-f-3.svg"), url("../img/bg/bg-f-3b.svg");
+}
+
+.features__item--4 {
+  background-image: url("../img/bg/bg-f-4.svg"), url("../img/bg/bg-f-4b.svg");
+}
+
+.features__desc {
+  margin-top: 50px;
 }
