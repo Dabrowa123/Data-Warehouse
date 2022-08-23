@@ -43,12 +43,14 @@
   grid-template-columns: 47% 47%;
   grid-gap: 6%;
 }
+
 .features__item {
   position: relative;
   height: 360px;
   padding: 50px 50px 50px 50%;
   background-repeat: no-repeat;
   background-position: 100% 50%, 0% 50%;
+  background-size: 80%, 45%;
 }
 
 .features__item--1 {

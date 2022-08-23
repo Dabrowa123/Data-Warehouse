@@ -89,3 +89,12 @@ nav {
   width: 75%;
   text-align: center;
 }
+
+.features__item {
+  position: relative;
+  height: 430px;
+  padding: 50px 20px 50px 55%;
+  background-repeat: no-repeat;
+  background-position: 110% 50%, 0% 50%;
+  background-size: 100%, 40%;
+}
