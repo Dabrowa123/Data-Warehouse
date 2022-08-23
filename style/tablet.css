@@ -67,11 +67,25 @@ nav {
 }
 
 .about h1 {
-  font-size: 61px;
+  font-size: 45px;
   margin-bottom: 40px;
   line-height: 130%;
 }
 
 .about p {
   padding-left: 55%;
+}
+
+.features {
+  margin-top: 90px;
+}
+
+.features h1 {
+  font-size: 45px;
+}
+
+.features__header {
+  margin: 0 auto 70px auto;
+  width: 75%;
+  text-align: center;
 }

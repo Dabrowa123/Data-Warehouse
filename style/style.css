@@ -136,7 +136,7 @@ nav .container .btn--mobile-menu img {
   background: rgba(240, 99, 184, 0.15) url("../img/bg/bg-about.svg");
   background-size: 85%;
   background-repeat: no-repeat;
-  background-position: 20% 92%;
+  background-position: 20% 93%;
   border-radius: 50px;
 }
 
@@ -151,12 +151,12 @@ nav .container .btn--mobile-menu img {
 }
 
 .features {
-  margin-top: 150px;
+  margin-top: 70px;
 }
 
 .features__header {
-  margin: 0 auto 100px auto;
-  width: 52%;
+  margin: 0 auto 70px auto;
+  width: 90%;
   text-align: center;
 }
 
@@ -201,7 +201,7 @@ nav .container .btn--mobile-menu img {
 }
 
 .features__desc {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .link-with-icon {
