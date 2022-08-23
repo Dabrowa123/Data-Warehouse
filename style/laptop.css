@@ -60,3 +60,8 @@
   background-position: 100% 50%, 0% 50%;
   background-size: 95%, 45%;
 }
+
+.features__item h2 {
+  padding-left: 0%;
+  margin-bottom: 30px;
+}
