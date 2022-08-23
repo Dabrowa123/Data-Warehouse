@@ -25,3 +25,23 @@
 .landing-page h1 {
   margin-bottom: 50px;
 }
+
+.about {
+  padding: 100px 92px 100px 50%;
+  background: rgba(240, 99, 184, 0.15), url("../img/bg/bg-about.svg");
+  background-size: 47%;
+  background-repeat: no-repeat;
+  background-position: 2% 48%;
+  border-radius: 50px;
+}
+
+.about h1 {
+  margin-bottom: 40px;
+  line-height: 130%;
+}
+
+.about p {
+  font-size: 18px;
+  color: var(--dark-gray);
+  line-height: 160%;
+}

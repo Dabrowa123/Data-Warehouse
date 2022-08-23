@@ -59,3 +59,11 @@ nav {
   box-shadow: none;
   position: initial;
 }
+
+.about {
+  padding: 90px 92px 100px 50%;
+  background: rgba(240, 99, 184, 0.15), url("../img/bg/bg-about.svg");
+  background-repeat: no-repeat;
+  background-position: 5% 50%;
+  border-radius: 50px;
+}

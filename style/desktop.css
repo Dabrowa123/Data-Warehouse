@@ -7,3 +7,22 @@
   background-size: 50%;
   background-position: 85% 70%;
 }
+
+.about {
+  padding: 125px 92px 125px 50%;
+  background: rgba(240, 99, 184, 0.15) url("../img/bg/bg-about.svg");
+  background-repeat: no-repeat;
+  background-position: 5% 50%;
+  border-radius: 50px;
+}
+
+.about h1 {
+  margin-bottom: 40px;
+  line-height: 130%;
+}
+
+.about p {
+  font-size: 18px;
+  color: var(--dark-gray);
+  line-height: 160%;
+}
