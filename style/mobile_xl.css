@@ -1,0 +1,8 @@
+.about {
+  padding: 50px 25px 350px 25px;
+  background: rgba(240, 99, 184, 0.15) url("../img/bg/bg-about.svg");
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: 10% 96%;
+  border-radius: 50px;
+}
