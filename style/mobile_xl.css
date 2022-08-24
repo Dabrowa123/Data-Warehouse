@@ -1,3 +1,8 @@
+.landing-page {
+  background-size: 480px;
+  background-position: 80% 90%;
+}
+
 .about {
   padding: 50px 25px 350px 25px;
   background-size: 350px;
