@@ -90,6 +90,16 @@ nav {
   text-align: center;
 }
 
+.features__list {
+  display: grid;
+  grid-template-columns: 47% 47%;
+  grid-gap: 6%;
+}
+
+.features__list p {
+  position: initial;
+}
+
 .features__item h2 {
   padding-left: 60%;
   margin-bottom: 30px;
@@ -102,4 +112,14 @@ nav {
   background-repeat: no-repeat;
   background-position: 110% 85%, 0% 5%;
   background-size: 110%, 45%;
+  border-radius: 0%;
+}
+
+.link-with-icon img {
+  margin-left: 18px;
+  vertical-align: middle;
+}
+
+.link-with-icon {
+  bottom: 30px;
 }
