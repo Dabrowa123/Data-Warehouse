@@ -125,3 +125,11 @@ nav {
 .link-with-icon {
   bottom: 30px;
 }
+
+footer .container {
+  padding: 40px 0px 0 0px;
+}
+
+footer .btn--white {
+  display: initial;
+}

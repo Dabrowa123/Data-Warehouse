@@ -65,3 +65,12 @@
   padding-left: 0%;
   margin-bottom: 30px;
 }
+
+footer .container {
+  padding: 100px 22px 0 22px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
