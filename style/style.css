@@ -56,6 +56,12 @@ p {
   color: #ffffff;
 }
 
+.btn--pink {
+  background-color: var(--pink);
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  color: #ffffff;
+}
+
 nav {
   margin-top: 3%;
 }
@@ -240,9 +246,21 @@ nav .container .btn--mobile-menu img {
   opacity: 0.2;
 }
 
+footer .container {
+  padding-top: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .btn--pink {
+  margin-right: 30px;
+}
+
 footer h1 {
   display: block;
-  padding: 100px 0 20px 0;
+  padding-bottom: 20px;
 }
 
 footer p {
