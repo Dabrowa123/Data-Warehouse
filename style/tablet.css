@@ -94,6 +94,7 @@ nav {
   display: grid;
   grid-template-columns: 47% 47%;
   grid-gap: 6%;
+  margin-bottom: 110px;
 }
 
 .features__list p {
