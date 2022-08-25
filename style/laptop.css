@@ -52,6 +52,10 @@
   text-align: center;
 }
 
+.features__list {
+  margin-bottom: 150px;
+}
+
 .features__item {
   position: relative;
   height: 360px;
