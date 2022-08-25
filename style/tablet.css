@@ -127,9 +127,26 @@ nav {
 }
 
 footer .container {
-  padding: 40px 0px 0 0px;
+  padding: 40px 8px 0 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer p {
+  padding-bottom: 0;
+}
+
+footer .btn--pink {
+  margin-right: 10px;
 }
 
 footer .btn--white {
   display: initial;
+}
+
+footer .btn--white img {
+  display: none;
 }
