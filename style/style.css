@@ -24,6 +24,12 @@ h1 {
   color: var(--dark-blue);
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 35px;
+  color: var(--dark-blue);
+}
+
 p {
   font-size: 18px;
 }
@@ -146,7 +152,7 @@ nav .container .btn--mobile-menu img {
   border-radius: 50px;
 }
 
-.about h1 {
+.about h2 {
   margin-bottom: 30px;
 }
 
@@ -167,6 +173,12 @@ nav .container .btn--mobile-menu img {
 }
 
 .features h2 {
+  color: var(--dark-blue);
+  font-size: 35px;
+  margin-bottom: 35px;
+}
+
+.features h3 {
   color: var(--dark-blue);
   font-size: 24px;
   margin-bottom: 35px;
@@ -197,7 +209,7 @@ nav .container .btn--mobile-menu img {
   border-radius: 50px 50px 50px 0;
 }
 
-.features__item h2 {
+.features__item h3 {
   padding-left: 52%;
   margin-bottom: 30px;
 }
@@ -263,7 +275,7 @@ footer .btn--white {
   display: none;
 }
 
-footer h1 {
+footer h2 {
   display: block;
   padding-bottom: 20px;
 }
