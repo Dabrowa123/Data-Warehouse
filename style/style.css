@@ -122,8 +122,8 @@ nav .container .btn--mobile-menu img {
 
 .landing-page .container {
   padding: 40px 6px 40px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 100%;
 }
 .landing-page h1 {
   font-size: 40px;
@@ -142,6 +142,7 @@ nav .container .btn--mobile-menu img {
 
 .landing-page img {
   margin-left: -8px;
+  width: 100%;
 }
 
 /* .landing-page {
