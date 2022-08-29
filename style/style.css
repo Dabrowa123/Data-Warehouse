@@ -145,16 +145,6 @@ nav .container .btn--mobile-menu img {
   width: 100%;
 }
 
-/* .landing-page {
-  position: relative;
-  min-height: 76vh;
-  background-image: url("../img/bg/bg-lp.svg");
-  background-size: 90%;
-  background-repeat: no-repeat;
-  background-position: 38% 74%;
-}
-*/
-
 .about {
   padding: 50px 22px 330px 22px;
   background: rgba(240, 99, 184, 0.15) url("../img/bg/bg-about.svg");

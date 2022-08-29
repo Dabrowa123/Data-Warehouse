@@ -72,14 +72,14 @@ nav {
 }
 
 .about {
-  padding: 50px 60px 50px;
+  padding: 50px 60px 65px;
   background-size: 47%;
-  background-position: 5% 85%;
+  background-position: 5% 75%;
 }
 
 .about h2 {
   font-size: 45px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   line-height: 130%;
 }
 
