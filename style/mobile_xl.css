@@ -4,6 +4,21 @@
   background-position: 50% 72%;
 } */
 
+.container {
+  width: 88%;
+}
+
+.landing-page h1,
+.landing-page p {
+  margin-bottom: 30px;
+}
+
+.landing-page img {
+  margin-left: -8px;
+  width: 100%;
+  justify-self: center;
+}
+
 .about {
   padding: 50px 25px 350px 25px;
   background-size: 360px;
