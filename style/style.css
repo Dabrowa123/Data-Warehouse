@@ -99,6 +99,7 @@ nav .container .btn--mobile-menu {
   position: absolute;
   padding: 4px;
   top: 0;
+  margin-left: -10px;
 }
 
 nav .container .btn--mobile-menu img {

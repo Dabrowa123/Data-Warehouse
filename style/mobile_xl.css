@@ -9,7 +9,8 @@
 }
 
 .landing-page h1,
-.landing-page p {
+.landing-page p,
+.landing-page img {
   margin-bottom: 30px;
 }
 
