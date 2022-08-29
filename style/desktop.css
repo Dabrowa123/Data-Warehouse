@@ -2,8 +2,15 @@
   width: 1120px;
 }
 
+.landing-page h1 {
+  grid-area: h1;
+  font-size: 50px;
+  margin: 20px 0 60px 0;
+}
+
 .landing-page p {
   margin-right: -65px;
+  margin-bottom: 250px;
 }
 
 .landing-page .container {
