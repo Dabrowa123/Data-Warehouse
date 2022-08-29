@@ -13,11 +13,12 @@
 .landing-page h1 {
   grid-area: h1;
   font-size: 50px;
-  margin-bottom: 40px;
+  margin: 30px 0 70px 0;
 }
 
 .landing-page p {
   grid-area: p;
+  margin-bottom: 250px;
 }
 
 .landing-page .btn--violet {
@@ -36,23 +37,8 @@
     "p p p img img img img img"
     "p p p img img img img img"
     "btn btn btn img img img img img";
+  margin-bottom: 60px;
 }
-
-/* .landing-page {
-  padding: 50px 0px 100px 0px;
-  background-size: 60%;
-  background-position: 93% 78%;
-  margin-bottom: 30px;
-}
-
-.landing-page h1 {
-  width: 53%;
-}
-
-.landing-page p,
-.landing-page h1 {
-  margin-bottom: 50px;
-} */
 
 .about {
   padding: 100px 92px 100px 53%;

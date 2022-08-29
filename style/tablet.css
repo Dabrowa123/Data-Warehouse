@@ -66,30 +66,6 @@ nav {
     "btn btn btn img img img img img";
 }
 
-/* .landing-page {
-  min-height: 50vh;
-  padding: 50px 0px 100px 0px;
-  background-size: 60%;
-  background-position: 88% 80%;
-}
-
-.landing-page h1 {
-  font-size: 80px;
-  color: var(--dark-blue);
-}
-
-.landing-page p {
-  position: initial;
-  padding: 15px 0 20px 0;
-  width: 33%;
-  line-height: 160%;
-}
-
-.landing-page p,
-.landing-page h1 {
-  margin-bottom: 30px;
-} */
-
 .btn--violet {
   box-shadow: none;
   position: initial;

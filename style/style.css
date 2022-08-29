@@ -55,8 +55,6 @@ p {
 }
 
 .btn--violet {
-  /* position: absolute;
-  bottom: 33px; */
   width: fit-content;
   height: fit-content;
   background-color: var(--violet);
