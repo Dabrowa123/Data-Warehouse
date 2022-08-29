@@ -32,7 +32,8 @@ nav {
   display: none;
 }
 
-.landing-page {
+/* .landing-page {
+  min-height: 50vh;
   padding: 50px 0px 100px 0px;
   background-size: 60%;
   background-position: 88% 80%;
@@ -53,7 +54,7 @@ nav {
 .landing-page p,
 .landing-page h1 {
   margin-bottom: 30px;
-}
+} */
 
 .btn--violet {
   box-shadow: none;
