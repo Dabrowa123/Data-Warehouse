@@ -18,17 +18,15 @@
 
 .landing-page p {
   grid-area: p;
-  z-index: 2;
 }
 
 .landing-page .btn--violet {
   grid-area: btn;
-  align-self: center;
 }
 
 .landing-page img {
   grid-area: img;
-  margin: 0 0 0 0;
+  margin: 0 0 -20 0;
 }
 
 .landing-page .container {

@@ -47,7 +47,7 @@ nav {
 
 .landing-page .btn--violet {
   grid-area: btn;
-  align-self: center;
+  align-self: end;
 }
 
 .landing-page img {

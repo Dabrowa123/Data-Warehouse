@@ -2,6 +2,19 @@
   width: 1120px;
 }
 
+.landing-page p {
+  margin-right: -65px;
+}
+
+.landing-page .container {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "h1 h1 h1 h1 h1 h1 h1 h1"
+    "p p p img img img img img"
+    "p p p img img img img img"
+    "btn btn btn img img img img img";
+}
+
 /* .landing-page {
   padding: 90px 0 100px 0;
   background-size: 50%;
