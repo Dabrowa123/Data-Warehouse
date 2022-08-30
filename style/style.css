@@ -70,7 +70,7 @@ p {
 
 main .btn--white {
   float: right;
-  margin: -101px 2% 0 0;
+  margin: -102px 3% 0 0;
   position: sticky;
   top: 25px;
   z-index: 2;
@@ -141,14 +141,21 @@ nav .container .btn--mobile-menu img {
 }
 
 .landing-page p,
-.landing-page h1,
-.landing-page img {
+.landing-page h1 {
   margin-bottom: 35px;
+}
+
+.landing-page img {
+  margin-bottom: 20px;
 }
 
 .landing-page img {
   margin-left: -8px;
   width: 100%;
+}
+
+.landing-page .btn--violet {
+  margin-left: 1%;
 }
 
 .about {
