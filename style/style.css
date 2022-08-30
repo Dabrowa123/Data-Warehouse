@@ -35,6 +35,7 @@ p {
 }
 
 .btn {
+  width: 158px;
   padding: 17px 27px;
   border: 0;
   background: none;
@@ -55,7 +56,6 @@ p {
 }
 
 .btn--violet {
-  width: fit-content;
   height: fit-content;
   background-color: var(--violet);
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
@@ -97,7 +97,6 @@ nav .container .logo {
 
 nav .container .btn img {
   display: none;
-  margin-right: -25px;
 }
 
 nav .container .btn .btn--mobile-menu {
@@ -108,8 +107,11 @@ nav .container .btn .btn--mobile-menu {
 
 nav .container .btn--mobile-menu img {
   display: initial;
-  width: 35px;
+  float: right;
+  width: 42px;
   height: auto;
+  margin-right: -18px;
+  margin-top: 5px;
 }
 
 .nav__links {
