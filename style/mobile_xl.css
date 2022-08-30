@@ -2,6 +2,10 @@
   width: 88%;
 }
 
+main .btn--white {
+  margin: -92px 6% 0 0;
+}
+
 .landing-page h1,
 .landing-page p,
 .landing-page img {

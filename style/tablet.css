@@ -7,6 +7,10 @@
   font-size: 16px;
 }
 
+main .btn--white {
+  display: none;
+}
+
 nav .container .btn {
   position: absolute;
   right: 0;
@@ -58,6 +62,8 @@ nav {
 }
 
 .landing-page .container {
+  margin-top: 30px;
+  margin-bottom: 60px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "h1 h1 h1 h1 h1 h1 h1 h1"

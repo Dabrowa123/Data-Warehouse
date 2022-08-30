@@ -68,6 +68,14 @@ p {
   color: #ffffff;
 }
 
+main .btn--white {
+  float: right;
+  margin: -92px 2% 0 0;
+  position: sticky;
+  top: 25px;
+  z-index: 2;
+}
+
 nav {
   margin-top: 3%;
 }
@@ -76,13 +84,11 @@ nav .container {
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-nav .container .btn {
-  position: fixed;
-  right: 10px;
-  bottom: 15px;
-  z-index: 2;
+nav .container .btn--white {
+  display: none;
 }
 
 nav .container .logo {
@@ -91,13 +97,13 @@ nav .container .logo {
 
 nav .container .btn img {
   display: none;
+  margin-right: -25px;
 }
 
-nav .container .btn--mobile-menu {
+nav .container .btn .btn--mobile-menu {
   position: absolute;
   padding: 4px;
   top: 0;
-  margin-left: -10px;
 }
 
 nav .container .btn--mobile-menu img {
