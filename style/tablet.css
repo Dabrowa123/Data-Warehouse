@@ -11,10 +11,18 @@ main .btn--white {
   display: none;
 }
 
+nav .container {
+  justify-content: flex-start;
+}
+
 nav .container .btn {
   position: absolute;
   right: 0;
   bottom: unset;
+}
+
+nav .container .btn--white {
+  display: initial;
 }
 
 nav .container .btn img {
