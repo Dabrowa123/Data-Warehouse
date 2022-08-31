@@ -176,3 +176,11 @@ footer .btn--white {
 footer .btn--white img {
   display: none;
 }
+
+.footer__info .container {
+  grid-template-areas:
+    "co so"
+    "ab he";
+  row-gap: 35px;
+  margin-bottom: 20px;
+}
