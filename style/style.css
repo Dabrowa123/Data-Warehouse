@@ -129,7 +129,7 @@ nav .container .btn--mobile-menu img {
 }
 
 .landing-page .container {
-  padding: 20px 6px 50px;
+  padding: 20px 8px 50px 8px;
   display: grid;
   grid-template-columns: 100%;
 }
@@ -275,8 +275,12 @@ nav .container .btn--mobile-menu img {
   opacity: 0.2;
 }
 
+footer {
+  padding: 0 8px 0 8px;
+}
+
 footer .footer__try .container {
-  padding: 40px 8px 70px 8px;
+  padding: 40px 0 70px 0;
   position: relative;
   display: flex;
   flex-direction: column;
