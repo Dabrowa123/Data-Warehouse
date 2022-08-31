@@ -31,6 +31,10 @@ main .btn--white {
   background-position: 45% 96%;
 }
 
+.features .container {
+  width: 96%;
+}
+
 .features__item h3 {
   padding-left: 41%;
   margin-bottom: 30px;
