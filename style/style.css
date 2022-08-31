@@ -348,3 +348,27 @@ footer h5 {
   line-height: 160%;
   margin: 7px 0 30px 0;
 }
+
+.footer__social-media {
+  display: flex;
+  gap: 14px;
+}
+
+.footer__social-media li {
+  background-image: url("../img/icons/social-circle.svg");
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.footer__social-media--facebook {
+  padding: 11px 0 8px 0.5px;
+}
+
+.footer__social-media--twitter {
+  padding: 8px 0 8px 2px;
+}
+
+.footer__social-media--instagram {
+  padding: 8px 0 8px 2px;
+}
