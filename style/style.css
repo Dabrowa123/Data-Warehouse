@@ -1,5 +1,5 @@
 @import url("reset.css");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap");
 @import url("variables.css");
 
 *,
@@ -307,8 +307,11 @@ footer p {
 
 .footer__info .container {
   display: grid;
-  grid-template-columns: 3fr 1fr 1fr 1fr;
+  grid-template-columns: 2.5fr 1fr 1fr 1fr;
   color: var(--dark-blue);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 250%;
 }
 
 .footer__logo-span {
@@ -337,4 +340,11 @@ footer p {
   font-size: 16px;
   line-height: 180%;
   letter-spacing: 0.01em;
+}
+
+footer h5 {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 160%;
+  margin: 7px 0 30px 0;
 }
