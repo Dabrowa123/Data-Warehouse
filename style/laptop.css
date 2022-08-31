@@ -84,8 +84,8 @@
   margin-bottom: 30px;
 }
 
-footer .container {
-  padding: 100px 22px 0 22px;
+footer .footer__try .container {
+  padding: 100px 22px 153px 22px;
   position: relative;
   display: flex;
   flex-direction: row;

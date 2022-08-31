@@ -275,7 +275,7 @@ nav .container .btn--mobile-menu img {
   opacity: 0.2;
 }
 
-footer .container {
+footer .footer__try .container {
   padding: 40px 8px 0 8px;
   position: relative;
   display: flex;
@@ -303,4 +303,9 @@ footer p {
   font-size: 18px;
   line-height: 160%;
   color: var(--dark-gray);
+}
+
+.footer__info .container {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
 }
