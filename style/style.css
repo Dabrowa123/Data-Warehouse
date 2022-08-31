@@ -312,6 +312,7 @@ footer p {
   font-weight: 400;
   font-size: 16px;
   line-height: 250%;
+  margin-bottom: 93px;
 }
 
 .footer__logo-span {
@@ -371,4 +372,32 @@ footer h5 {
 
 .footer__social-media--instagram {
   padding: 8px 0 8px 2px;
+}
+
+.footer__copyrigth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.footer__copyrigth p,
+.credits {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+}
+
+.credits {
+  margin-bottom: 100px;
+}
+
+.credits a {
+  color: var(--dark-gray);
+}
+
+.credits a:visited {
+  color: var(--dark-gray);
 }
