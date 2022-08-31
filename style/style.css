@@ -276,7 +276,7 @@ nav .container .btn--mobile-menu img {
 }
 
 footer .footer__try .container {
-  padding: 40px 8px 0 8px;
+  padding: 40px 8px 70px 8px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -307,19 +307,48 @@ footer p {
 
 .footer__info .container {
   display: grid;
-  grid-template-columns: 2.5fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "co co"
+    "ab he"
+    "so so";
+  row-gap: 30px;
+  column-gap: 5px;
   color: var(--dark-blue);
   font-weight: 400;
   font-size: 16px;
   line-height: 250%;
-  margin-bottom: 93px;
+  margin: 0 22px 93px 22px;
+}
+
+.footer__info__company {
+  grid-area: co;
+}
+
+.footer__info__about {
+  grid-area: ab;
+}
+
+.footer__info__help {
+  grid-area: he;
+}
+
+.footer__info__social-media {
+  grid-area: so;
+}
+
+.footer__info__social-media h5 {
+  margin-bottom: 20px;
+}
+
+.footer__info div {
+  margin-bottom: 25px;
 }
 
 .footer__logo-span {
   display: flex;
   align-items: center;
   column-gap: 20px;
-  margin-bottom: 65px;
+  margin-bottom: 45px;
 }
 
 .footer__logo-span h4 {
@@ -347,7 +376,7 @@ footer h5 {
   font-weight: 900;
   font-size: 16px;
   line-height: 160%;
-  margin: 7px 0 30px 0;
+  margin: 0 0 10px 0;
 }
 
 .footer__social-media {
