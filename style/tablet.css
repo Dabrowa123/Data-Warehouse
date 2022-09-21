@@ -3,14 +3,27 @@
 }
 
 .btn {
+  width: fit-content;
   padding: 21px 29px;
   font-size: 16px;
+}
+
+main .btn--white {
+  display: none;
+}
+
+nav .container {
+  justify-content: flex-start;
 }
 
 nav .container .btn {
   position: absolute;
   right: 0;
   bottom: unset;
+}
+
+nav .container .btn--white {
+  display: initial;
 }
 
 nav .container .btn img {
@@ -32,27 +45,40 @@ nav {
   display: none;
 }
 
-.landing-page {
-  padding: 50px 0px 100px 0px;
-  background-size: 60%;
-  background-position: 88% 80%;
-}
-
 .landing-page h1 {
-  font-size: 80px;
-  color: var(--dark-blue);
+  grid-area: h1;
+  font-size: 50px;
+  margin-bottom: 45px;
 }
 
 .landing-page p {
-  position: initial;
-  padding: 15px 0 20px 0;
-  width: 33%;
-  line-height: 160%;
+  grid-area: p;
+  z-index: 2;
+  margin-bottom: 60px;
+  margin-right: -30px;
 }
 
-.landing-page p,
-.landing-page h1 {
-  margin-bottom: 30px;
+.landing-page .btn--violet {
+  grid-area: btn;
+  align-self: end;
+}
+
+.landing-page img {
+  grid-area: img;
+  width: 110%;
+  margin: 0 0 -20px 0;
+  align-self: end;
+}
+
+.landing-page .container {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "h1 h1 h1 h1 h1 h1 h1 h1"
+    "p p p img img img img img"
+    "p p p img img img img img"
+    "btn btn btn img img img img img";
 }
 
 .btn--violet {
@@ -61,14 +87,14 @@ nav {
 }
 
 .about {
-  padding: 50px 60px 50px;
+  padding: 50px 60px 65px;
   background-size: 47%;
-  background-position: 5% 85%;
+  background-position: 5% 75%;
 }
 
-.about h1 {
+.about h2 {
   font-size: 45px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   line-height: 130%;
 }
 
@@ -80,7 +106,7 @@ nav {
   margin-top: 90px;
 }
 
-.features h1 {
+.features h2 {
   font-size: 45px;
 }
 
@@ -94,6 +120,7 @@ nav {
   display: grid;
   grid-template-columns: 47% 47%;
   grid-gap: 6%;
+  margin-bottom: 110px;
 }
 
 .features__list p {
@@ -101,7 +128,7 @@ nav {
   padding-right: 0;
 }
 
-.features__item h2 {
+.features__item h3 {
   padding-left: 60%;
   margin-bottom: 30px;
 }
@@ -123,4 +150,37 @@ nav {
 
 .link-with-icon {
   bottom: 30px;
+}
+
+footer .footer__try .container {
+  padding: 65px 8px 60px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer p {
+  padding-bottom: 0;
+}
+
+footer .btn--pink {
+  margin-right: 10px;
+}
+
+footer .btn--white {
+  display: initial;
+}
+
+footer .btn--white img {
+  display: none;
+}
+
+.footer__info .container {
+  grid-template-areas:
+    "co so"
+    "ab he";
+  row-gap: 35px;
+  margin-bottom: 20px;
 }

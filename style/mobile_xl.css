@@ -1,7 +1,28 @@
-.landing-page {
-  height: 550px;
-  background-size: 75%;
-  background-position: 50% 72%;
+.container {
+  width: 88%;
+}
+
+main .btn--white {
+  margin: -102px 7% 0 0;
+}
+
+.landing-page h1,
+.landing-page p {
+  margin-bottom: 30px;
+}
+
+.landing-page img {
+  margin-bottom: 20px;
+}
+
+.landing-page img {
+  margin-left: -8px;
+  width: 100%;
+  justify-self: center;
+}
+
+.landing-page .btn--violet {
+  margin-left: 1%;
 }
 
 .about {
@@ -10,7 +31,11 @@
   background-position: 45% 96%;
 }
 
-.features__item h2 {
+.features .container {
+  width: 96%;
+}
+
+.features__item h3 {
   padding-left: 41%;
   margin-bottom: 30px;
 }
