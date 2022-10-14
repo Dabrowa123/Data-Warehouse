@@ -29,23 +29,19 @@
   width: 96%;
 }
 
-.features__item h3 {
-  padding-left: 41%;
-  margin-bottom: 30px;
+.features__item {
+  height: 270px;
+  padding: 30px 22px 5px 22px;
+  background-position: 100% 20%, 5% 43%;
+  background-size: 200%, 32%;
 }
 
-.features__list p {
+.features__item h3 {
+  padding-left: 41%;
+}
+
+.features__item p {
   top: 26%;
   left: 42%;
   padding-right: 30px;
-}
-
-.features__item {
-  position: relative;
-  height: 270px;
-  padding: 30px 22px 5px 22px;
-  background-repeat: no-repeat;
-  background-position: 100% 20%, 5% 43%;
-  background-size: 200%, 32%;
-  border-radius: 50px 50px 50px 0;
 }

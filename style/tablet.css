@@ -108,14 +108,12 @@ nav .btn--white img {
   margin-top: 90px;
 }
 
-.features h2 {
-  font-size: 45px;
+.features__header {
+  width: 75%;
 }
 
-.features__header {
-  margin: 0 auto 70px auto;
-  width: 75%;
-  text-align: center;
+.features__header h2 {
+  font-size: 45px;
 }
 
 .features__list {
@@ -125,34 +123,33 @@ nav .btn--white img {
   margin-bottom: 110px;
 }
 
-.features__list p {
-  position: initial;
-  padding-right: 0;
-}
-
-.features__item h3 {
-  padding-left: 60%;
-  margin-bottom: 30px;
-}
-
 .features__item {
-  position: relative;
   height: 360px;
   padding: 75px 40px 50px 35px;
-  background-repeat: no-repeat;
   background-position: 110% 85%, 0% 5%;
   background-size: 110%, 45%;
   border-radius: 0%;
 }
 
-.link-with-icon img {
-  margin-left: 18px;
-  vertical-align: middle;
+.features__item h3 {
+  padding-left: 55%;
+}
+
+.features__item p {
+  top: 44%;
+  left: 10%;
+  padding-right: 35px;
 }
 
 .link-with-icon {
   bottom: 30px;
 }
+
+.link-with-icon img {
+  margin-left: 18px;
+}
+
+/* footer */
 
 footer .footer__try .container {
   padding: 65px 8px 60px 0;

@@ -27,66 +27,19 @@
 }
 
 .features__header {
-  margin: 0 auto 100px auto;
   width: 52%;
-  text-align: center;
-}
-
-.features h3 {
-  color: var(--dark-blue);
-  font-size: 24px;
-  margin-bottom: 35px;
-}
-
-.features__list p {
-  font-size: 16px;
-  line-height: 160%;
-}
-
-.features__list {
-  display: grid;
-  grid-template-columns: 47% 47%;
-  grid-gap: 6%;
-}
-
-.features__item {
-  position: relative;
-  height: 360px;
-  padding: 50px 50px 50px 50%;
-  background-repeat: no-repeat;
-  background-position: 100% 50%, 0% 50%;
-  background-size: 80%, 45%;
-}
-
-.features__item--1 {
-  background-image: url("../img/bg/bg-f-1.svg"), url("../img/bg/bg-f-1b.svg");
-}
-
-.features__item--2 {
-  background-image: url("../img/bg/bg-f-2.svg"), url("../img/bg/bg-f-2b.svg");
-}
-
-.features__item--3 {
-  background-image: url("../img/bg/bg-f-3.svg"), url("../img/bg/bg-f-3b.svg");
-}
-
-.features__item--4 {
-  background-image: url("../img/bg/bg-f-4.svg"), url("../img/bg/bg-f-4b.svg");
 }
 
 .features__desc {
   margin-top: 50px;
 }
 
-/* .footer__info .container {
-  display: grid;
-  grid-template-columns: 2.5fr 1fr 1fr 1fr;
-  color: var(--dark-blue);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 250%;
-  margin-bottom: 93px;
-} */
+.features__item {
+  padding: 50px 50px 50px 50%;
+  background-size: 80%, 45%;
+}
+
+/* footer */
 
 .footer__info .container {
   grid-template-areas: "co co ab ab he he so";
