@@ -2,6 +2,8 @@
   width: 1120px;
 }
 
+/* landing page */
+
 .landing-page h1 {
   grid-area: h1;
   font-size: 50px;

@@ -2,31 +2,43 @@
   width: 720px;
 }
 
+/* buttons */
+
 .btn {
   width: fit-content;
   padding: 21px 29px;
   font-size: 16px;
 }
 
-main .btn--white {
+.btn--white-sticky {
   display: none;
+}
+
+.btn--mobile-menu {
+  display: none;
+}
+
+/* navigation */
+
+nav {
+  margin-top: 50px;
 }
 
 nav .container {
   justify-content: flex-start;
 }
 
-nav .container .btn {
+nav .btn {
   position: absolute;
   right: 0;
   bottom: unset;
 }
 
-nav .container .btn--white {
+nav .btn--white {
   display: initial;
 }
 
-nav .container .btn img {
+nav .btn img {
   display: initial;
 }
 
@@ -37,13 +49,7 @@ nav .container .btn img {
   margin-left: 10.8%;
 }
 
-nav {
-  margin-top: 50px;
-}
-
-.btn--mobile-menu {
-  display: none;
-}
+/* landing page */
 
 .landing-page h1 {
   grid-area: h1;

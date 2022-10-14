@@ -34,6 +34,8 @@ p {
   font-size: 18px;
 }
 
+/* buttons */
+
 .btn {
   width: 158px;
   padding: 17px 27px;
@@ -55,6 +57,14 @@ p {
   vertical-align: middle;
 }
 
+.btn--white-sticky {
+  float: right;
+  margin: -103px 4% 0 0;
+  position: sticky;
+  top: 25px;
+  z-index: 2;
+}
+
 .btn--violet {
   height: fit-content;
   background-color: var(--violet);
@@ -68,17 +78,7 @@ p {
   color: #ffffff;
 }
 
-main .btn--white {
-  float: right;
-  margin: -103px 3.5% 0 0;
-  position: sticky;
-  top: 25px;
-  z-index: 2;
-}
-
-nav {
-  margin-top: 3%;
-}
+/* navigation */
 
 nav .container {
   position: relative;
@@ -87,25 +87,25 @@ nav .container {
   justify-content: space-between;
 }
 
-nav .container .btn--white {
-  display: none;
-}
-
-nav .container .logo {
+nav .logo {
   margin-left: 5px;
 }
 
-nav .container .btn img {
+nav .btn--white {
   display: none;
 }
 
-nav .container .btn .btn--mobile-menu {
+nav .btn img {
+  display: none;
+}
+
+nav .btn .btn--mobile-menu {
   position: absolute;
   padding: 4px;
   top: 0;
 }
 
-nav .container .btn--mobile-menu img {
+nav .btn--mobile-menu img {
   display: initial;
   float: right;
   width: 42px;
@@ -127,6 +127,8 @@ nav .container .btn--mobile-menu img {
   color: var(--dark-blue);
   font-weight: 700;
 }
+
+/* landing page */
 
 .landing-page .container {
   padding: 20px 8px 50px 8px;
@@ -156,9 +158,7 @@ nav .container .btn--mobile-menu img {
   width: 100%;
 }
 
-.landing-page .btn--violet {
-  margin-left: 1%;
-}
+/* about */
 
 .about {
   padding: 50px 22px 330px 22px;

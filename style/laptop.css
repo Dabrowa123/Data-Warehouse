@@ -2,13 +2,13 @@
   width: 960px;
 }
 
-.container p {
-  padding-top: 5px;
-}
+/* navigation */
 
 .nav__links {
   width: 28.75%;
 }
+
+/* landing page */
 
 .landing-page h1 {
   grid-area: h1;

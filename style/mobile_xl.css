@@ -2,9 +2,13 @@
   width: 88%;
 }
 
-main .btn--white {
+/* buttons */
+
+.btn--white-sticky {
   margin: -102px 7% 0 0;
 }
+
+/* landing page */
 
 .landing-page h1,
 .landing-page p {
