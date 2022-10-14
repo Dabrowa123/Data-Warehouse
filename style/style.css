@@ -78,6 +78,16 @@ p {
   color: #ffffff;
 }
 
+.btn--mobile-menu {
+  width: 50px;
+  padding: 4px;
+}
+
+.btn--mobile-menu img {
+  width: 42px;
+  height: auto;
+}
+
 /* navigation */
 
 nav .container {
@@ -85,9 +95,10 @@ nav .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 10px;
 }
 
-nav .logo {
+.logo {
   margin-left: 5px;
 }
 
@@ -95,23 +106,8 @@ nav .btn--white {
   display: none;
 }
 
-nav .btn img {
+nav .btn--white img {
   display: none;
-}
-
-nav .btn .btn--mobile-menu {
-  position: absolute;
-  padding: 4px;
-  top: 0;
-}
-
-nav .btn--mobile-menu img {
-  display: initial;
-  float: right;
-  width: 42px;
-  height: auto;
-  margin-right: -18px;
-  margin-top: 5px;
 }
 
 .nav__links {
