@@ -4,15 +4,6 @@
 
 /* landing page */
 
-.landing-page .container {
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-    "h1 h1 h1 h1 h1 h1 h1 h1"
-    "p p p img img img img img"
-    "p p p img img img img img"
-    "btn btn btn img img img img img";
-}
-
 .landing-page h1 {
   margin: 20px 0 60px 0;
 }
@@ -29,9 +20,7 @@
   background-position: 3% 40%;
 }
 
-.about h2 {
-  margin-bottom: 40px;
-}
+/* features */
 
 .features {
   margin-top: 150px;

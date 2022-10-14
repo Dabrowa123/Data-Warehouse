@@ -95,13 +95,14 @@ nav .btn--white img {
 
 .about h2 {
   font-size: 45px;
-  margin-bottom: 30px;
   line-height: 130%;
 }
 
 .about p {
   padding-left: 55%;
 }
+
+/* features */
 
 .features {
   margin-top: 90px;
