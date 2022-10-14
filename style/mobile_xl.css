@@ -15,19 +15,7 @@
   margin-bottom: 30px;
 }
 
-.landing-page img {
-  margin-bottom: 20px;
-}
-
-.landing-page img {
-  margin-left: -8px;
-  width: 100%;
-  justify-self: center;
-}
-
-.landing-page .btn--violet {
-  margin-left: 1%;
-}
+/* about */
 
 .about {
   padding: 50px 25px 350px 25px;

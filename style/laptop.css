@@ -10,26 +10,6 @@
 
 /* landing page */
 
-.landing-page h1 {
-  grid-area: h1;
-  font-size: 50px;
-  margin: 35px 0 50px 0;
-}
-
-.landing-page p {
-  grid-area: p;
-  margin-bottom: 160px;
-}
-
-.landing-page .btn--violet {
-  grid-area: btn;
-}
-
-.landing-page img {
-  grid-area: img;
-  margin: 0 0 -40 0;
-}
-
 .landing-page .container {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
@@ -39,6 +19,16 @@
     "btn btn btn img img img img img";
   margin-bottom: 60px;
 }
+
+.landing-page h1 {
+  margin: 35px 0 50px 0;
+}
+
+.landing-page img {
+  margin: 0 0 -40 0;
+}
+
+/* about */
 
 .about {
   padding: 100px 92px 100px 53%;

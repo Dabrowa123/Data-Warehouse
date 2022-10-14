@@ -131,6 +131,7 @@ nav .btn--white img {
   display: grid;
   grid-template-columns: 100%;
 }
+
 .landing-page h1 {
   font-size: 40px;
   color: var(--dark-blue);
@@ -146,12 +147,8 @@ nav .btn--white img {
 }
 
 .landing-page img {
-  margin-bottom: 20px;
-}
-
-.landing-page img {
-  margin-left: -8px;
   width: 100%;
+  margin: 0 0 20px -8px;
 }
 
 /* about */

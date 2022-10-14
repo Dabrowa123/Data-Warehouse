@@ -4,17 +4,6 @@
 
 /* landing page */
 
-.landing-page h1 {
-  grid-area: h1;
-  font-size: 50px;
-  margin: 20px 0 60px 0;
-}
-
-.landing-page p {
-  margin-right: -65px;
-  margin-bottom: 250px;
-}
-
 .landing-page .container {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
@@ -23,6 +12,16 @@
     "p p p img img img img img"
     "btn btn btn img img img img img";
 }
+
+.landing-page h1 {
+  margin: 20px 0 60px 0;
+}
+
+.landing-page p {
+  margin-right: -65px;
+}
+
+/* about */
 
 .about {
   padding: 125px 92px 125px 50%;
