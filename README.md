@@ -13,3 +13,6 @@ I was following **BEM metodology** during creating website's classes.
 The website is build in correct **sematic structure**.
 
 The project is guided by free design created by @Slab Studio and shared in **Figma**. 
+
+
+![alt text](https://github.com/Dabrowa123/Data-Warehouse/blob/Master/img/bg/data-warehouse.png?raw=true)
