@@ -2,28 +2,20 @@
   width: 88%;
 }
 
-main .btn--white {
+/* buttons */
+
+.btn--white-sticky {
   margin: -102px 7% 0 0;
 }
+
+/* landing page */
 
 .landing-page h1,
 .landing-page p {
   margin-bottom: 30px;
 }
 
-.landing-page img {
-  margin-bottom: 20px;
-}
-
-.landing-page img {
-  margin-left: -8px;
-  width: 100%;
-  justify-self: center;
-}
-
-.landing-page .btn--violet {
-  margin-left: 1%;
-}
+/* about */
 
 .about {
   padding: 50px 25px 350px 25px;
@@ -31,27 +23,25 @@ main .btn--white {
   background-position: 45% 96%;
 }
 
+/* features */
+
 .features .container {
   width: 96%;
 }
 
-.features__item h3 {
-  padding-left: 41%;
-  margin-bottom: 30px;
+.features__item {
+  height: 270px;
+  padding: 30px 22px 5px 22px;
+  background-position: 100% 20%, 5% 43%;
+  background-size: 200%, 32%;
 }
 
-.features__list p {
+.features__item h3 {
+  padding-left: 41%;
+}
+
+.features__item p {
   top: 26%;
   left: 42%;
   padding-right: 30px;
-}
-
-.features__item {
-  position: relative;
-  height: 270px;
-  padding: 30px 22px 5px 22px;
-  background-repeat: no-repeat;
-  background-position: 100% 20%, 5% 43%;
-  background-size: 200%, 32%;
-  border-radius: 50px 50px 50px 0;
 }
