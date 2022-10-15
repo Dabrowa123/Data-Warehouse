@@ -151,13 +151,11 @@ nav .btn--white img {
 
 /* footer */
 
-footer .footer__try .container {
+.footer__try {
   padding: 65px 8px 60px 0;
-  position: relative;
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 footer p {
@@ -176,10 +174,8 @@ footer .btn--white img {
   display: none;
 }
 
-.footer__info .container {
+.footer__info {
   grid-template-areas:
     "co so"
     "ab he";
-  row-gap: 35px;
-  margin-bottom: 20px;
 }

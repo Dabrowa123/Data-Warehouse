@@ -66,12 +66,8 @@ footer {
   padding: 0 22px;
 }
 
-footer .footer__try .container {
+.footer__try {
   padding: 100px 0 153px;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 footer .btn--pink {
@@ -82,15 +78,12 @@ footer .btn--white img {
   display: initial;
 }
 
-.footer__info .container {
+.footer__info {
   grid-template-areas:
     "co ab he"
     "so so so";
-  row-gap: 35px;
-  margin-bottom: 20px;
 }
 
 .footer__logo-span {
-  padding-bottom: 45px;
   padding-right: 200px;
 }
