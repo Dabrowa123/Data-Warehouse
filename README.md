@@ -12,6 +12,8 @@ I was following **BEM metodology** during creating website's classes.
 
 The website is build in correct **sematic structure**.
 
+Website theme colors are stored in **CSS variables**.
+
 The project is guided by free design created by @Slab Studio and shared in **Figma**. 
 
 <br />
