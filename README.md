@@ -12,7 +12,7 @@ I was following **BEM metodology** during creating website's classes.
 
 The website is build in correct **sematic structure**.
 
-Website colors are stored in **CSS variables** for future theme manipulations.
+Website colors are stored in **CSS variables** in purpose to create flexible theme.
 
 The project is guided by free design created by @Slab Studio and shared in **Figma**. 
 
